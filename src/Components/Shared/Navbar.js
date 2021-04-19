@@ -4,6 +4,7 @@ import ChatIcon from '@material-ui/icons/Chat';
 import CategoryIcon from '@material-ui/icons/Category';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -18,7 +19,7 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><HomeIcon/></a>
+                <Link class="nav-link active" aria-current="page" to='/'><HomeIcon/></Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><ChatIcon/></a>
