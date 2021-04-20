@@ -1,0 +1,10 @@
+.authAvatar{
+    background-image: url(../../Resorce/istockphoto-1058679916-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.dangerCursor{
+    cursor: pointer;
+}
